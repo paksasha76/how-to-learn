@@ -87,8 +87,35 @@ left: 64px;
 }
 a{
   text-decoration: none;
+  color: #2f80ed;
 }
 .two-columns__span-accent
 {
   font-weight: bold;
+}
+.two-columns{
+  width: 80%;
+  min-width: 754px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+}
+.two-columns__brief
+{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 175px;
+  color: #2f80ed;
+}
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
