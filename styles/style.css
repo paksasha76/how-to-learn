@@ -51,8 +51,7 @@ height: 54px;
 line-height: 96px;
 font-size: 102px;
 font-weight: 600;
-position: absolute;
-left: 64px;
+padding-left: 64px;
 }
 
 .header__subtitle {
@@ -324,6 +323,7 @@ left: 64px;
 .footer__column_links {
   color: white;
   list-style-type: none;
+  padding: 0;
 }
 
 .footer__social_icon {
