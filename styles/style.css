@@ -31,7 +31,15 @@
 
 /* и элемента с модификатором вида ключ-значение */
 
-.header__logo{
+.logo{
+  max-width: 183px;
+  width: 100%;
+  max-height: 32px;
+  height: 100%;
+}
+
+.logo_place_header
+{
   position: absolute;
   top: 30px;
   left: 64px;
@@ -114,6 +122,12 @@ left: 64px;
   font-weight: normal;
   margin-bottom: 30px;
 }
+.two-columns__paragraph:last-child{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
 .two-columns__main-text{
   width: 784px;
 }
@@ -156,6 +170,7 @@ left: 64px;
 .table__cell{
   width: 250px;
   padding-bottom: 60px;
+  list-style-type: none;
 }
 .feynman{
   height: 890px;
@@ -224,7 +239,7 @@ left: 64px;
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
+ 
 }
 .table__heading_theme_dark {
   color: white;
@@ -241,3 +256,55 @@ left: 64px;
   right: -210px;
   z-index: -1;
  }
+
+.footer{
+  background: #1f1f1f;
+  min-height: 350px;
+}
+
+.footer__columns{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+.footer__column_content_info{
+  color: white;
+}
+.footer__column_content_social
+{
+  color: white;
+}
+
+.logo_place_footer{
+  max-height: 35px;
+  height: 100%;
+  color: white;
+}
+
+.footer__author{
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__column_links{
+  color: white;
+  list-style-type: none;
+}
+.footer__social_icon{
+
+}
+.footer__column_link{
+  color: white;
+}
+.footer__list{
+  text-decoration: none;
+  color: white;
+}
