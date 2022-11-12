@@ -16,7 +16,6 @@
   background-color: #f2f2f2;
   position: relative;
   margin-bottom: 100px;
-  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -33,7 +32,7 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .logo {
-  max-width: 183px;
+  max-width: 228px;
   width: 100%;
   max-height: 32px;
   height: 100%;
@@ -46,22 +45,29 @@
 }
 
 .header__title {
-width: 730px;
-height: 54px;
+max-width: 730px;
+width: 100%;
+min-height: 54px;
 line-height: 96px;
 font-size: 102px;
 font-weight: 600;
-padding-left: 64px;
+z-index: 2;
+padding: 0px 0px 0px 64px;
+margin: 0;
 }
 
 .header__subtitle {
-width: 388px;
-height: 64px;
+max-width: 388px;
+width: 100%;
+min-height: 64px;
 line-height: 25px;
 font-size: 18px;
 font-weight: normal;
 position: absolute;
 bottom: 30px;
+z-index: 2;
+margin: 0;
+padding: 0;
 left: 64px;
 }
 
@@ -111,9 +117,11 @@ left: 64px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  min-width: 175px;
+  max-width: 175px;
+  width: 100%;
   color: #2f80ed;
-  padding-top: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__paragraph {
@@ -121,6 +129,7 @@ left: 64px;
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .two-columns__paragraph:last-child {
@@ -131,7 +140,8 @@ left: 64px;
 }
 
 .two-columns__main-text {
-  width: 784px;
+  min-width: 784px;
+  width: 80%;
 }
 
 .section-title {
@@ -143,6 +153,8 @@ left: 64px;
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  padding: 0;
+  padding-bottom: 20px;
 }
 
 .section-subtitle {
@@ -153,6 +165,8 @@ left: 64px;
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  padding: 0;
+  padding-bottom: 60px;
 }
 
 .table {
@@ -160,13 +174,18 @@ left: 64px;
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto;
+  padding: 0 auto;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
 }
 
 .table__text {
@@ -179,17 +198,20 @@ left: 64px;
   width: 250px;
   padding-bottom: 60px;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   position: relative;
   z-index: 1;
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   line-height: 1.15;
@@ -212,7 +234,7 @@ left: 64px;
   text-decoration: none;
   position: absolute;
   right: 48px;
-  top: 445px;
+  top: 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -255,14 +277,6 @@ left: 64px;
 
 }
 
-.table__heading_theme_dark {
-  color: white;
-}
-
-.table__text_theme_dark {
-  color: white;
- }
-
  .kaufman__triangle {
   position: absolute;
   width: 877px;
@@ -270,11 +284,14 @@ left: 64px;
   top: 0;
   right: -210px;
   z-index: -1;
+  background-image: url('../images/kaufman-triangle.svg');
  }
 
 .footer {
   background: #1f1f1f;
   min-height: 350px;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -286,23 +303,31 @@ left: 64px;
   padding-top: 60px;
 }
 
-.footer__column_heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0 0 20px;
+  padding: 0;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_info {
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_social {
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo_place_footer {
@@ -312,25 +337,25 @@ left: 64px;
 }
 
 .footer__author {
-  position: absolute;
   color: white;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  bottom: 58px;
+  padding-bottom: 58px;
 }
 
-.footer__column_links {
+.footer__column-links {
   color: white;
   list-style-type: none;
   padding: 0;
+  margin: 0 0 16px;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   padding-right: 10px;
 }
 
-.footer__column_link {
+.footer__column-link {
   color: white;
   line-height: 30px;
   font-size: 18px;
