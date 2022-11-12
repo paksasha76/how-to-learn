@@ -47,7 +47,6 @@
 .header__title {
 max-width: 730px;
 width: 100%;
-min-height: 54px;
 line-height: 96px;
 font-size: 102px;
 font-weight: 600;
@@ -59,7 +58,6 @@ margin: 0;
 .header__subtitle {
 max-width: 388px;
 width: 100%;
-min-height: 64px;
 line-height: 25px;
 font-size: 18px;
 font-weight: normal;
@@ -85,10 +83,6 @@ left: 64px;
   bottom: 0px;
 }
 
-.img__header {
-  width: 765px;
-  height: 608px;
-}
 
 .flex-row {
   display: flex;
@@ -172,7 +166,7 @@ left: 64px;
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   justify-content: space-between;
   padding-bottom: 100px;
 }
@@ -183,13 +177,15 @@ left: 64px;
   font-weight: 600;
   margin: 0;
   padding: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -198,6 +194,7 @@ left: 64px;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-top: 20px;
 }
 
 .feynman {
@@ -299,6 +296,7 @@ left: 64px;
   justify-content: space-between;
   margin: 0px auto;
   padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__column-heading {
@@ -339,7 +337,6 @@ left: 64px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 58px;
 }
 
 .footer__column-links {
@@ -358,9 +355,6 @@ left: 64px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
 }
 
-.footer__list {
-  text-decoration: none;
-  color: white;
-}
