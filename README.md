@@ -7,4 +7,4 @@ ____
   * HTML
   * CSS
 
-![project](https://img.freepik.com/premium-photo/anonymous-man-in-a-black-hoodie-and-neon-mask-hacking-into-a-computer_149155-3726.jpg?w=1800)
+![project](https://img.freepik.com/free-vector/creative-hacker-logo-template_23-2149212791.jpg?w=996&t=st=1669242224~exp=1669242824~hmac=3854b530d6dee38bf8573fed4bb4d625a33423dc04a699ba8cec0d3a91ca4109)
