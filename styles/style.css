@@ -362,3 +362,148 @@ left: 64px;
   text-decoration: none;
 }
 
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  padding: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cards__subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.cards__item {
+
+  text-align: center;
+  align-items: center;
+  margin-left: 100px;
+
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+  margin: 60px 40px 43px;
+
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 240px;
+  text-align: center;
+}
+
+.video {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 100px;
+  margin-bottom: 160px;
+}
+.video__iframes {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+
+}
+
+.oakley
+ {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 100px;
+ }
+
+.khan {
+  background: #f2f2f2;
+  display: flex;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+.khan__book-container {
+  position: relative;
+}
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+.khan__buy-link {
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  position: absolute;
+  top: 0;
+}
