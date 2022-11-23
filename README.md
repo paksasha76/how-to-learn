@@ -7,4 +7,4 @@ ____
   * HTML
   * CSS
 
-![project](https://img.freepik.com/free-vector/creative-hacker-logo-template_23-2149212791.jpg?w=996&t=st=1669242224~exp=1669242824~hmac=3854b530d6dee38bf8573fed4bb4d625a33423dc04a699ba8cec0d3a91ca4109)
+![project](https://img.freepik.com/free-vector/hacker-activity-concept-illustration-with-man-and-laptop_23-2148532182.jpg?w=1800&t=st=1669242356~exp=1669242956~hmac=71cace0c9fdfde46dd68eaf518bdb30c238476659dde03dc9a5f5da75d04e152)
