@@ -143,10 +143,10 @@ left: 64px;
 
 .digits {
  margin-bottom: 100px;
+ padding-top: 100px;
 }
 
 .section-title {
-
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -163,8 +163,9 @@ left: 64px;
   font-weight: normal;
   text-align: center;
   width: 60%;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  margin: 0 auto;
 }
 
 .table {
@@ -426,6 +427,7 @@ left: 64px;
   font-weight: 600;
   margin: 0;
   padding: 0;
+  width: 250px;
 }
 
 .cards__description {
@@ -444,6 +446,7 @@ left: 64px;
   display: flex;
   flex-direction: column;
 }
+
 .video__iframes {
   margin: 0 auto;
   margin-top: 50px;
@@ -470,6 +473,7 @@ left: 64px;
 .khan {
   background: #f2f2f2;
   display: flex;
+  padding-top: 105px;
 }
 
 .khan__container {
