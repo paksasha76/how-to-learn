@@ -7,8 +7,5 @@
 }
 
 .two-columns__paragraph:last-child {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
