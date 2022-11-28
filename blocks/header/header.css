@@ -6,4 +6,7 @@
   position: relative;
   margin-bottom: 100px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
