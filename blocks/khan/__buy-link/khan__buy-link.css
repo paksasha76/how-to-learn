@@ -4,9 +4,9 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  transition: 2s;
 }
 
 .khan__buy-link:hover {
   opacity: 0.4;
-  transition: 2s;
 }
